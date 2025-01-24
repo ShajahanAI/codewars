@@ -14,3 +14,6 @@ def am_I_afraid(day,num):
     }
 
     return afraid_logic[day](num)
+
+output = am_I_afraid('Monday', 12)
+print(output)
