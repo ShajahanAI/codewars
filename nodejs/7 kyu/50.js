@@ -4,7 +4,6 @@
 
 function countArara(n) {
   let numberString = "";
-  console.log(n);
 
   if (n % 2 === 0) {
     numberString += "adak ".repeat(Math.floor(n / 2)).trim();
