@@ -2,6 +2,7 @@
 
 // Passed
 
+
 function base64toBase10(base64) {
   let base64CharToValMap = new Object();
   let base64Characters =
