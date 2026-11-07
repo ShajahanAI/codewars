@@ -25,7 +25,7 @@ function factors(n) {
       pastMaxSquare = true;
     }
 
-    if (numCube > 2) {
+    if (numCube > n) {
       pastMaxCube = true;
     }
   }
